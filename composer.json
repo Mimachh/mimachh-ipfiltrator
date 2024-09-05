@@ -1,0 +1,23 @@
+{
+    "name": "mimachh/ip-filtrator",
+    "description": "Ensure your Laravel application filtering IP",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mimachh\\IpFiltrator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mimachh\\IpFiltrator\\IpFiltratorServiceProvider"
+            ]
+        }
+    }
+}
